@@ -2,7 +2,8 @@
 
 $newArray = array();
 
-for ($i = 0; $i <= 9; $i++) {
+
+for ($i = 0; $i < $_GET ["numberX"]; $i++) {
     $newNumber1 = rand(1, 20);
     
 $newNumber = [$i, $newNumber1 ];
